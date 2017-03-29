@@ -45,7 +45,7 @@ public class Jarvis {
         }
         // Init Graph
         xMin = f.largeur();
-        for (int i = 1; i<nbPoints; i++) {
+        for (int i = 0; i<nbPoints; i++) {
             int x = r.nextInt(f.largeur()-20)+10;
             int y = r.nextInt(f.hauteur()-20)+10;
             if (x < xMin) {
